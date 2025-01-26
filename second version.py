@@ -46,8 +46,8 @@ def main():
     Enter two positive integers and calculate their GCD
     """
     # Get user input
-    a = valid_input1("Please enter the first positive integer a: ")
-    b = valid_input2("Please enter the second positive integer b: ")
+    a = get_input("Please enter the first positive integer a: ")
+    b = get_input("Please enter the second positive integer b: ")
 
     # Create instance and calculate GCD
     calculator = CalculatorGCD(a, b)
